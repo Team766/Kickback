@@ -36,7 +36,6 @@ public class OI {
     GPbuttonShifter = new JoystickButton(jGpad, Buttons.GPShifter),
     GPbuttonQuickTurn = new JoystickButton(jGpad, Buttons.GPQuickTurn),
     GPbuttonReverse = new JoystickButton(jGpad, Buttons.GPReverse),
-    GPbuttonShoot = new JoystickButton(jGpad, Buttons.GPShoot),
     GPbuttonAuton = new JoystickButton(jGpad, Buttons.GPAuton);
     
     public CheesyVisionServer server = CheesyVisionServer.getInstance();

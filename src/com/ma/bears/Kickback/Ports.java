@@ -9,8 +9,8 @@ package com.ma.bears.Kickback;
  * 
  */
 public class Ports {
-    public static final int PWM_Left_Drive = 1;
-    public static final int PWM_Right_Drive = 2;
+    public static final int PWM_Left_Drive = 2;
+    public static final int PWM_Right_Drive = 1;
     
     public static final int Relay_Compr = 1;
     

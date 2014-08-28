@@ -72,10 +72,9 @@ public class Buttons {
     public static int Axis_Vertical = 6;
     
     //Gamepad buttons
-    public static int GPShifter = 11; //
+    public static int GPShifter = 8; //
     public static int GPReverse = 12;
     public static int GPQuickTurn = 12;
-    public static int GPShoot = 5;
     public static int GPAuton = 7;
     
 }
