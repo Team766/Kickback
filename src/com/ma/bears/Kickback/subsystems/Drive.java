@@ -32,10 +32,10 @@ public class Drive extends Subsystem{
 		setRightSpeed(speed);
 	}
 	public void setLeftSpeed(double speed){
-		leftDrive.set(speed);
+		leftDrive.set(-speed);
 	}
 	public void setRightSpeed(double speed){
-		rightDrive.set(speed);
+		rightDrive.set(-speed);
 	}
 	public void setShifter(boolean highGear){
 		//Shifter.set(!highGear);
