@@ -34,8 +34,8 @@ public class Kickback extends IterativeRobot {
     
     public void robotInit(){
     	System.out.println("Java Code Kickback V: 1");
-        SmartDashboard.putBoolean("Tank Drive", true);
-        SmartDashboard.putBoolean("UseGamePad", true);
+        SmartDashboard.putBoolean("Tank Drive", false);
+        SmartDashboard.putBoolean("UseGamePad", false);
         CommandBase.init();
         CommandBase.OI.server.setPort(listenPort);
         CommandBase.OI.server.start();
